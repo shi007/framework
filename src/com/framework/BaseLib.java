@@ -50,6 +50,7 @@ public void tearDown(ITestResult Result)
 		ScreenShotLib slib= new ScreenShotLib();
 		slib.takeScreenshot(driver, filename);
 		Reporter.log("Screenshot has been taken", true);
+		//Added change
 	}
 	//driver.close();
 	Reporter.log("Browser closed", true);
